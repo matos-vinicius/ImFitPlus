@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ImFitPlus" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
 
-    <style name="Theme.ImFitPlus" parent="android:Theme.Material.Light.NoActionBar" />
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+
+    </style>
+
+    <style name="Theme.ImFitPlus" parent="Base.Theme.ImFitPlus" />
 </resources>
