@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ResultadoImcActivity">
+
+    <TextView
+        android:id="@+id/tvSaudacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="Olá, Nobile!" />
+
+    <TextView
+        android:id="@+id/tvResultadoImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        tools:text="Seu IMC é: 24.50" />
+
+    <TextView
+        android:id="@+id/tvCategoriaImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:text="Categoria: Normal" />
+
+    <ImageView
+        android:id="@+id/ivCategoriaImc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagem_da_categoria_do_imc"
+        tools:src="@drawable/ic_launcher_background" />
+    <Button
+        android:id="@+id/btnCalcularGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/imc_botao_gasto" />
+
+    <Button
+        android:id="@+id/btnVoltarImc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imc_botao_voltar"
+        style="@style/Widget.Material3.Button.TextButton" />
+
+</LinearLayout>
