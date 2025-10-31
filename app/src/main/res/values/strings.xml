@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">ImFitPlus</string>
+
+    <string name="boas_vindas_titulo">ImFitPlus</string>
+    <string name="boas_vindas_subtitulo">Descubra seu perfil de saúde e receba recomendações personalizadas.</string>
+    <string name="boas_vindas_botao">Comece aqui</string>
+
+    <string name="dados_pessoais_titulo">Dados Pessoais</string>
+    <string name="dados_nome">Nome</string>
+    <string name="dados_idade">Idade</string>
+    <string name="dados_sexo">Sexo</string>
+    <string name="dados_masculino">Masculino</string>
+    <string name="dados_feminino">Feminino</string>
+    <string name="dados_altura">Altura (em metros, ex: 1.75)</string>
+    <string name="dados_peso">Peso (em kg, ex: 70.5)</string>
+    <string name="dados_nivel_atividade">Nível de Atividade</string>
+    <string name="dados_botao_calcular">Calcular IMC e Avançar</string>
+
+    <string-array name="niveis_atividade">
+        <item>Selecione o nível</item>
+        <item>Sedentário</item>
+        <item>Leve</item>
+        <item>Moderado</item>
+        <item>Intenso</item>
+    </string-array>
+
+    <string name="imc_titulo">Resultado do IMC</string>
+    <string name="imc_saudacao">Olá, %s!</string>
+    <string name="imc_resultado">Seu IMC é: %.2f</string>
+    <string name="imc_categoria">Categoria: %s</string>
+    <string name="imc_abaixo_peso">Abaixo do peso</string>
+    <string name="imc_normal">Normal</string>
+    <string name="imc_sobrepeso">Sobrepeso</string>
+    <string name="imc_obesidade">Obesidade</string>
+    <string name="imc_botao_gasto">Calcular Gasto Calórico</string>
+    <string name="imc_botao_voltar">Voltar</string>
+
+    <string name="gasto_titulo">Gasto Calórico Diário</string>
+    <string name="gasto_tmb">Sua Taxa Metabólica Basal (TMB) é: %.0f kcal</string>
+    <string name="gasto_total">Seu Gasto Calórico Diário Total é: %.0f kcal</string>
+    <string name="gasto_botao_ideal">Calcular Peso Ideal</string>
+
+    <string name="ideal_titulo">Peso Ideal</string>
+    <string name="ideal_resultado">Seu peso ideal é: %.2f kg</string>
+    <string name="ideal_diferenca_perder">Você precisa perder %.2f kg para atingir seu peso ideal.</string>
+    <string name="ideal_diferenca_ganhar">Você precisa ganhar %.2f kg para atingir seu peso ideal.</string>
+    <string name="ideal_diferenca_ok">Parabéns! Você está no seu peso ideal.</string>
+    <string name="ideal_botao_inicio">Voltar ao Início</string>
+
+    <string name="erro_validacao">Por favor, preencha todos os campos corretamente.</string>
+    <string name="erro_spinner">Por favor, selecione um nível de atividade.</string>
+    <string name="altura_em_cent_metros_ex_175">Altura (em centímetros, ex: 175)</string>
+    <string name="imagem_da_categoria_do_imc">Imagem da categoria do IMC</string>
+
 </resources>
